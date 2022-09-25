@@ -1,7 +1,11 @@
+import Header from './components/header/Header';
+import Character from './pages/Character/Character';
+
 function App() {
   return (
     <div className="App">
-      <h1>Start</h1>
+      <Header />
+      <Character />
     </div>
   );
 }
