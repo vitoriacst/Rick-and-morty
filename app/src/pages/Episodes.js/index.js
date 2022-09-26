@@ -3,7 +3,6 @@ import UseAPi from '../../hooks/useApi';
 
 const Episode = () => {
   const { episode } = UseAPi('https://rickandmortyapi.com/api/episode');
-  console.log(episode);
   return (
     <>
       <Header />
