@@ -1,11 +1,12 @@
-import Header from './components/header/Header';
-import Character from './pages/Character/Character';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes/Routes';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Character />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </div>
   );
 }

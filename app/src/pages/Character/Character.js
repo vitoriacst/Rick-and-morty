@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../../components/header/Header';
 import UseAPi from '../../hooks/useApi';
 
 const Character = () => {
@@ -7,6 +8,7 @@ const Character = () => {
 
   return (
     <>
+      <Header />
       <div className="flex flex-wrap gap-6 p-6 justify-center">
         {character.map((character) => {
           return (

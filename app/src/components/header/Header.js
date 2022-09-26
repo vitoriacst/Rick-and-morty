@@ -22,14 +22,20 @@ const Header = () => {
                 </svg>
               </label>
             </div>
-            <a className="btn btn-ghost normal-case text-xl">RickAndMorty</a>
+            <img
+              src="https://imagensemoldes.com.br/wp-content/uploads/2021/04/Foto-Rick-and-Morty-PNG.png"
+              className="w-16"
+            />
+            <a className="btn btn-ghost normal-case text-xl" href="/">
+              RickAndMorty
+            </a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
               <li>
-                <a>Personagens</a>
-                <a>Episódios</a>
-                <a>Localização</a>
+                <a href="/personagens">Personagens</a>
+                <a href="/episode">Episódios</a>
+                <a href="/location">Localização</a>
               </li>
             </ul>
           </div>
